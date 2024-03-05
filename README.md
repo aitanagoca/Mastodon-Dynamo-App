@@ -1,6 +1,6 @@
 # Mastodon-Dynamo-App
 
-(For better viewing, you can visit: https://github.com/aitanagoca/Spark-Twitter-App)
+(For better viewing, you can visit: https://github.com/aitanagoca/Mastodon-Dynamo-App)
 
 ## Group Information 
 
