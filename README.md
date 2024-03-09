@@ -62,6 +62,6 @@ Arnau Royo (U172499, Bucket: lsds2024.lab3.output.u172499)
 
 4️⃣ Mvn: mvn package
 
-5️⃣ spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonWithState target/lab3-mastodon-1.0-SNAPSHOT.jar en
+5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonWithState target/lab3-mastodon-1.0-SNAPSHOT.jar en
 
 
