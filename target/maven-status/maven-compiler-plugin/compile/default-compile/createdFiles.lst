@@ -1,0 +1,17 @@
+edu/upf/MastodonWindowExample.class
+edu/upf/storage/IHashtagRepository.class
+com/github/tukaaa/model/SimplifiedTweetWithHashtags.class
+edu/upf/model/HashTag.class
+edu/upf/model/HashTagCount.class
+com/github/tukaaa/adapter/SimplifiedTweetAdapter.class
+edu/upf/MastodonStreamingExample.class
+com/github/tukaaa/MastodonDStream.class
+edu/upf/MastodonStateless.class
+com/github/tukaaa/config/AppConfig.class
+edu/upf/util/LanguageMapUtils.class
+edu/upf/storage/DynamoHashTagRepository.class
+edu/upf/MastodonHashtags.class
+edu/upf/MastodonWithState.class
+edu/upf/MastodonWindows.class
+com/github/tukaaa/MastodonDStreamReceiver.class
+edu/upf/model/HashTagCountComparator.class
