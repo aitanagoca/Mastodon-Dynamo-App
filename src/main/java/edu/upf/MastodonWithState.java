@@ -47,14 +47,13 @@ public class MastodonWithState {
                 }
             };
 
-        // Use updateStateByKey to maintain a running count
-        JavaPairDStream<String, Integer> runningCounts = tweetsPerUser.updateStateByKey(updateFunction);
+        // Use updateStateByKey to maintain a running count and swap the key-value pairs for sorting
+        JavaPairDStream<Integer, String> updatedCounts = tweetsPerUser.updateStateByKey(updateFunction)
+                                                                      .mapToPair(Tuple2::swap)
+                                                                      .transformToPair(counts -> counts.sortByKey(false));
 
-        // Swap the key-value pairs for sorting
-        JavaPairDStream<Integer, String> swappedCounts = runningCounts.mapToPair(Tuple2::swap);
-
-        // Sort by key (count) in descending order and print the top 20 users
-        swappedCounts.transformToPair(counts -> counts.sortByKey(false)).print(20);
+        // Print the top 20 users
+        updatedCounts.print(20);
 
         // Start the application and wait for termination signal
         jsc.start();
