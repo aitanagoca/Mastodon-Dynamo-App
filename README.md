@@ -64,4 +64,22 @@ Arnau Royo (U172499, Bucket: lsds2024.lab3.output.u172499)
 
 5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonWithState target/lab3-mastodon-1.0-SNAPSHOT.jar en
 
+### (PART 6) DynamoDB
+
+1️⃣ Mvn: mvn clean
+
+2️⃣ Mvn: mvn validate
+
+3️⃣ Mvn: mvn compile
+
+4️⃣ Mvn: mvn package
+
+5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonHashtags target/lab3-mastodon-1.0-SNAPSHOT.jar en
+
+## Output
+
+### (PART 2) Running example application locally
+
+<img width="1189" alt="Captura de pantalla 2024-03-09 a les 17 22 14" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/a4bf01b4-668a-421f-975c-3c3bc06c8dbc">
+
 
