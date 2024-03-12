@@ -66,6 +66,8 @@ Arnau Royo (U172499)
 
 ### (PART 6) DynamoDB
 
+⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
+
 1️⃣ Mvn: mvn clean
 
 2️⃣ Mvn: mvn validate
