@@ -86,3 +86,9 @@ Arnau Royo (U172499)
 
 ### (PART 3) Stateless: joining a static RDD with a real time stream
 
+### (PART 4) Spark Stateful transformations with windows
+
+### (PART 5) Spark Stateful transformations with state variables
+
+### (PART 6) DynamoDB
+
