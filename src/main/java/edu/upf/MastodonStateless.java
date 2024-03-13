@@ -44,8 +44,6 @@ public class MastodonStateless {
                         .reduceByKey((count1, count2) -> count1 + count2)
                         .transformToPair(rdd -> rdd.join(languageMap)
                                 .mapToPair(element -> new Tuple2<>(element._2._1, element._2._2))
-                                //.reduceByKey((count1, count2) -> count1 + count2)
-                                //.mapToPair(Tuple2::swap)
                                 .sortByKey(false) 
                                 .mapToPair(Tuple2::swap));
 

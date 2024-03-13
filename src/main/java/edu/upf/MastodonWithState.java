@@ -27,6 +27,8 @@ public class MastodonWithState {
 
         JavaDStream<SimplifiedTweetWithHashtags> stream = new MastodonDStream(sc, appConfig).asJStream();
 
+        // TODO IMPLEMENT ME
+
         // Filter tweets by language and count tweets per user
         String targetLanguage = args[0].toLowerCase(); 
         final JavaPairDStream<String, Integer> tweetsPerUser = stream

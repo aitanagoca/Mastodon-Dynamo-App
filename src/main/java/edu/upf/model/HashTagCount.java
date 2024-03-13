@@ -14,6 +14,19 @@ public final class HashTagCount {
     this.lang = lang;
     this.count = count;
   }
+  //////// NEW
+  public String getHashTag() {
+    return hashTag;
+  }
+
+  public String getLang() {
+    return lang;
+  }
+
+  public Long getCount() {
+    return count;
+  }
+  /////////
 
   @Override
   public String toString() {
