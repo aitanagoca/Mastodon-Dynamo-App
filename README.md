@@ -66,6 +66,8 @@ Arnau Royo (U172499)
 
 ### (PART 6) DynamoDB
 
+## (PART 6.1) Writing to Dynamo DB
+
 ⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
 
 1️⃣ Mvn: mvn clean
@@ -77,6 +79,20 @@ Arnau Royo (U172499)
 4️⃣ Mvn: mvn package
 
 5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonHashtags target/lab3-mastodon-1.0-SNAPSHOT.jar en
+
+## (PART 6.2) Writing from Dynamo DB
+
+⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
+
+1️⃣ Mvn: mvn clean
+
+2️⃣ Mvn: mvn validate
+
+3️⃣ Mvn: mvn compile
+
+4️⃣ Mvn: mvn package
+
+5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonHashtagsReader target/lab3-mastodon-1.0-SNAPSHOT.jar en
 
 ## Output
 
@@ -91,4 +107,16 @@ Arnau Royo (U172499)
 ### (PART 5) Spark Stateful transformations with state variables
 
 ### (PART 6) DynamoDB
+
+## (PART 6.1) Writing to Dynamo DB
+
+Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
+
+<img width="739" alt="Captura de pantalla 2024-03-13 a les 22 24 29" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f569ae89-825c-4023-b454-85ac16f0c9f3">
+
+## (PART 6.2) Writing from Dynamo DB
+
+Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
+
+<img width="228" alt="Captura de pantalla 2024-03-13 a les 22 27 31" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/48010445-4167-491a-baa2-7ec3192e19a7">
 
