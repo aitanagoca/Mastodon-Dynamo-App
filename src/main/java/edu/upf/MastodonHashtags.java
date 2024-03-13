@@ -41,18 +41,6 @@ public class MastodonHashtags {
                                 DynamoHashTagRepository repository = new DynamoHashTagRepository();
                                 repository.write(record);
                         });
-                    
-                        // Retrieve and print the top 10 hashtags
-                        DynamoHashTagRepository repository = new DynamoHashTagRepository();
-                        List<HashTagCount> top10 = repository.readTop10(targetLanguage);
-                        System.out.println("###############################");
-                        System.out.println("TOP 10 HASHTAGS IN - " + targetLanguage + ":");
-                        System.out.println("###############################");
-                        for (int i = 0; i < Math.min(10, top10.size()); i++) {
-                            HashTagCount tagCount = top10.get(i);
-                            System.out.println(tagCount.getHashTag() + ": " + tagCount.getCount());
-                        }
-                        System.out.println("###############################");
                     });
 
                 // Start the application and wait for termination signal

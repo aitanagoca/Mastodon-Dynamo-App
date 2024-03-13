@@ -1,4 +1,5 @@
 edu/upf/MastodonWindowExample.class
+edu/upf/MastodonHashtagsReader.class
 edu/upf/storage/IHashtagRepository.class
 com/github/tukaaa/model/SimplifiedTweetWithHashtags.class
 edu/upf/model/HashTag.class
