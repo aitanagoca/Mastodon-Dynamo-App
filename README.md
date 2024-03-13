@@ -110,13 +110,13 @@ Arnau Royo (U172499)
 
 ## (PART 6.1) Writing to Dynamo DB
 
-Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
+(AITANA) Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
 
 <img width="739" alt="Captura de pantalla 2024-03-13 a les 22 24 29" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f569ae89-825c-4023-b454-85ac16f0c9f3">
 
 ## (PART 6.2) Writing from Dynamo DB
 
-Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
+(AITANA) Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
 
 <img width="228" alt="Captura de pantalla 2024-03-13 a les 22 27 31" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/48010445-4167-491a-baa2-7ec3192e19a7">
 
