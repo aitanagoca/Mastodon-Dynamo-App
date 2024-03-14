@@ -110,9 +110,11 @@ Arnau Royo (U172499)
 
 ### (PART 5) Spark Stateful transformations with state variables
 
+<img width="383" alt="Captura de pantalla 2024-03-14 a les 14 33 09" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/5dbb0a21-bf05-47f7-88aa-019404d3cfa5">
+
+<img width="383" alt="Captura de pantalla 2024-03-14 a les 14 33 19" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/e5c05208-c145-494a-96c5-d9a1d1294ada">
+
 ### (PART 6) DynamoDB
-
-
 
 ## (PART 6.1) Writing to Dynamo DB
 
