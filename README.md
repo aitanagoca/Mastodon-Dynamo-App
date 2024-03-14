@@ -112,6 +112,8 @@ From the output, we can conclude that the application is functioning correctly. 
 
 ### (PART 4) Spark Stateful transformations with windows
 
+From the output, we can conclude that the application is functioning correctly. It’s successfully capturing tweets and their associated languages in real-time. The data includes the language of the tweet and the count of tweets in that language. English appears to have the highest number of tweets in both the micro batch and the 60-second window.
+
 <img width="313" alt="Captura de pantalla 2024-03-14 a les 15 22 48" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/e0b8b1b9-776e-4784-be17-5fcfb55c3f6c">
 
 <img width="313" alt="Captura de pantalla 2024-03-14 a les 15 23 04" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/c570e9f4-98fd-488b-b528-b30c60ccf99b">
