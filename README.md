@@ -136,22 +136,13 @@ From the output, we can conclude that the application is functioning correctly. 
 
 #### (PART 6.1) Writing to Dynamo DB
 
-(AITANA) Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
+Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
 
 <img width="739" alt="Captura de pantalla 2024-03-13 a les 22 24 29" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f569ae89-825c-4023-b454-85ac16f0c9f3">
 
-(JORDI) Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
-
-<img width="709" alt="part6_1output" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/60032639/04ded568-0edc-4efd-a4c9-ba3f0bd9f843">
-
-
 #### (PART 6.2) Writing from Dynamo DB
 
-(AITANA) Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
+Example of obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
 
 <img width="228" alt="Captura de pantalla 2024-03-13 a les 22 27 31" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/48010445-4167-491a-baa2-7ec3192e19a7">
-
-(JORDI) Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
-
-<img width="235" alt="part6_2output" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/60032639/ba01d3b5-98d3-4a69-a75e-39d223217e65">
 
