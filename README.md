@@ -148,3 +148,4 @@ Example of obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtag
 
 <img width="228" alt="Captura de pantalla 2024-03-13 a les 22 27 31" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/48010445-4167-491a-baa2-7ec3192e19a7">
 
+From the output, we can conclude that the MastodonHashtagsReader class is successfully retrieving the top 10 hashtags from the DynamoDB table. The hashtags are sorted in descending order based on their frequency of occurrence. This information could be useful for analyzing trends in hashtag usage in the English language.
