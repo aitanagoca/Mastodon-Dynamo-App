@@ -64,10 +64,9 @@ Arnau Royo (U172499)
 
 5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonWithState target/lab3-mastodon-1.0-SNAPSHOT.jar en
 
-
 ### (PART 6) DynamoDB
 
-## (PART 6.1) Writing to Dynamo DB
+#### (PART 6.1) Writing to Dynamo DB
 
 ⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
 
@@ -81,7 +80,7 @@ Arnau Royo (U172499)
 
 5️⃣ Mvn: spark-submit --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///log4j.properties --class edu.upf.MastodonHashtags target/lab3-mastodon-1.0-SNAPSHOT.jar en
 
-## (PART 6.2) Writing from Dynamo DB
+#### (PART 6.2) Writing from Dynamo DB
 
 ⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
 
@@ -117,13 +116,13 @@ Arnau Royo (U172499)
 
 ### (PART 6) DynamoDB
 
-## (PART 6.1) Writing to Dynamo DB
+#### (PART 6.1) Writing to Dynamo DB
 
 (AITANA) Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
 
 <img width="739" alt="Captura de pantalla 2024-03-13 a les 22 24 29" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f569ae89-825c-4023-b454-85ac16f0c9f3">
 
-## (PART 6.2) Writing from Dynamo DB
+#### (PART 6.2) Writing from Dynamo DB
 
 (AITANA) Obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
 
