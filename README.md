@@ -69,6 +69,7 @@ Arnau Royo (U172499)
 #### (PART 6.1) Writing to Dynamo DB
 
 ⚠️ Before following these steps, remember the aws configuration!! (1️⃣ aws configure; 2️⃣ aws configure set aws_session_token < your_aws_session_token >)
+
 ⚠️ Before following these steps, remember creating the DynamoBD table manually!! (Table Name: LsdsTwitterHashtags - Primary Key: hashtag
 
 1️⃣ Mvn: mvn clean
