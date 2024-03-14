@@ -140,6 +140,8 @@ Partial example after writing to DynamoDB table "LsdsTwitterHashtags":
 
 <img width="739" alt="Captura de pantalla 2024-03-13 a les 22 24 29" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f569ae89-825c-4023-b454-85ac16f0c9f3">
 
+From the output, we can conclude that the Spark streaming application is successfully extracting hashtags from tweets and storing the data in DynamoDB. The data includes the frequency of each hashtag, the language of the tweet, and the tweet IDs where the hashtag appears. This information could be useful for analyzing trends in hashtag usage.
+
 #### (PART 6.2) Writing from Dynamo DB
 
 Example of obtained top 10 after reading from DynamoDB table "LsdsTwitterHashtags": 
