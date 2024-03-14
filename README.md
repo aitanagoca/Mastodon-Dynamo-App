@@ -98,6 +98,8 @@ Arnau Royo (U172499)
 
 ### (PART 2) Running example application locally
 
+From the output, we can conclude that the application is functioning correctly. It’s successfully capturing tweets and their associated data in real-time. The data includes the tweet’s content, the user who posted it, and any hashtags used.
+
 <img width="1189" alt="Captura de pantalla 2024-03-09 a les 17 22 14" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/a4bf01b4-668a-421f-975c-3c3bc06c8dbc">
 
 ### (PART 3) Stateless: joining a static RDD with a real time stream
