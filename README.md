@@ -104,6 +104,8 @@ From the output, we can conclude that the application is functioning correctly. 
 
 ### (PART 3) Stateless: joining a static RDD with a real time stream
 
+From the output, we can conclude that the application is functioning correctly. It’s successfully capturing tweets and their associated languages in real-time. The data includes the language of the tweet and the count of tweets in that language. English appears to have the highest number of tweets in both time intervals displayed.
+
 <img width="309" alt="Captura de pantalla 2024-03-14 a les 14 28 20" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/ec87c44c-c5a7-4746-944b-c56045e22965">
 
 <img width="309" alt="Captura de pantalla 2024-03-14 a les 14 28 30" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/f6400dce-e9e5-442d-8123-ee9fdb0f87cf">
