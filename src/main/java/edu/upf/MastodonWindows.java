@@ -39,22 +39,22 @@ public class MastodonWindows {
                                                                             .reduceByKey((a, b) -> a);
 
                 // Compute language ranking for each micro-batch (20 seconds)
-                final JavaPairDStream<Integer, String> languageRankStream = stream
-                        .mapToPair(tweet -> new Tuple2<String, Integer>(tweet.getLanguage(), 1))
-                        .reduceByKey((count1, count2) -> count1 + count2)
-                        .transformToPair(rdd -> rdd.join(languageMap)
-                                                   .mapToPair(element -> new Tuple2<Integer, String>(element._2._1, element._2._2))
-                                                   .sortByKey(false)
-                                                   );
+                final JavaPairDStream<String, String> languageRankStream = stream
+                .mapToPair(tweet -> new Tuple2<String, Integer>(tweet.getLanguage(), 1))
+                .reduceByKey((count1, count2) -> count1 + count2)
+                .transformToPair(rdd -> rdd.join(languageMap)
+                                        .mapToPair(element -> new Tuple2<String, String>("MICRO BATCH: " + element._2._1, element._2._2))
+                                        .sortByKey(false)
+                                        );
 
                 // Compute language ranking for each window (60 seconds)
-                final JavaPairDStream<Integer, String> languageWindow = stream
-                        .mapToPair(tweet -> new Tuple2<String, Integer>(tweet.getLanguage(), 1))
-                        .reduceByKeyAndWindow((count1, count2) -> count1 + count2, Durations.seconds(60))
-                        .transformToPair(rdd -> rdd.join(languageMap)
-                                                .mapToPair(element -> new Tuple2<Integer, String>(element._2._1, element._2._2))
-                                                .sortByKey(false)
-                                                );
+                final JavaPairDStream<String, String> languageWindow = stream
+                .mapToPair(tweet -> new Tuple2<String, Integer>(tweet.getLanguage(), 1))
+                .reduceByKeyAndWindow((count1, count2) -> count1 + count2, Durations.seconds(60))
+                .transformToPair(rdd -> rdd.join(languageMap)
+                                        .mapToPair(element -> new Tuple2<String, String>("WINDOW: " + element._2._1, element._2._2))
+                                        .sortByKey(false)
+                                        );
                 
                 // Print top 15 languages from the stream and window
                 languageRankStream.print(15);
