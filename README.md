@@ -112,7 +112,7 @@ Arnau Royo (U172499)
 
 <img width="313" alt="Captura de pantalla 2024-03-14 a les 15 23 04" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/c570e9f4-98fd-488b-b528-b30c60ccf99b">
 
-
+<br>
 
 <img width="313" alt="Captura de pantalla 2024-03-14 a les 15 23 37" src="https://github.com/aitanagoca/Mastodon-Dynamo-App/assets/92036724/bd9cbedc-6fd8-4e98-8480-c6af265e4aff">
 
